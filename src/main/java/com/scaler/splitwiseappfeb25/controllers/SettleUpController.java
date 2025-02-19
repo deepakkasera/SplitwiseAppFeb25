@@ -17,3 +17,26 @@ public class SettleUpController {
         return null;
     }
 }
+
+/*
+
+E1 -> 1000
+
+A, B, C, D
+
+A paid 500 Rs
+B paid 500 Rs
+
+A had to pay 250 Rs
+B had to pay 250 Rs
+C had to pay 250 Rs
+D had to pay 250 Rs
+
+Transactions :
+Dummy Expense : C -> A : 250
+D -> B : 250
+
+Expense : 250
+C paid 250
+A had to 250
+ */
